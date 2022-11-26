@@ -104,5 +104,10 @@ namespace editor_de_texto
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 } 
