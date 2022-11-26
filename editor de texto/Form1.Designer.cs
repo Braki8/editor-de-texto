@@ -111,6 +111,7 @@
             this.limpiarToolStripMenuItem.Name = "limpiarToolStripMenuItem";
             this.limpiarToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.limpiarToolStripMenuItem.Text = "Limpiar";
+            this.limpiarToolStripMenuItem.Click += new System.EventHandler(this.limpiarToolStripMenuItem_Click);
             // 
             // Form1
             // 

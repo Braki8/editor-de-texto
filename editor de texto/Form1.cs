@@ -109,5 +109,10 @@ namespace editor_de_texto
         {
 
         }
+
+        private void limpiarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 } 
