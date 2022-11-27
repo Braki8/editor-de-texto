@@ -35,13 +35,13 @@
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.limpiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edicionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pegarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.liempiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,8 +63,7 @@
             this.newToolStripMenuItem,
             this.abrirToolStripMenuItem,
             this.guardarToolStripMenuItem,
-            this.salirToolStripMenuItem,
-            this.limpiarToolStripMenuItem});
+            this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -101,18 +100,12 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // limpiarToolStripMenuItem
-            // 
-            this.limpiarToolStripMenuItem.Name = "limpiarToolStripMenuItem";
-            this.limpiarToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.limpiarToolStripMenuItem.Text = "Limpiar";
-            this.limpiarToolStripMenuItem.Click += new System.EventHandler(this.limpiarToolStripMenuItem_Click);
-            // 
             // edicionesToolStripMenuItem
             // 
             this.edicionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pegarToolStripMenuItem,
-            this.copiarToolStripMenuItem});
+            this.copiarToolStripMenuItem,
+            this.liempiarToolStripMenuItem});
             this.edicionesToolStripMenuItem.Name = "edicionesToolStripMenuItem";
             this.edicionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.edicionesToolStripMenuItem.Text = "Ediciones";
@@ -140,6 +133,13 @@
             this.richTextBox1.Size = new System.Drawing.Size(800, 426);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            // 
+            // liempiarToolStripMenuItem
+            // 
+            this.liempiarToolStripMenuItem.Name = "liempiarToolStripMenuItem";
+            this.liempiarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.liempiarToolStripMenuItem.Text = "Liempiar";
+            this.liempiarToolStripMenuItem.Click += new System.EventHandler(this.liempiarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -169,10 +169,10 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.ToolStripMenuItem limpiarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem edicionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pegarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copiarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem liempiarToolStripMenuItem;
     }
 }
 

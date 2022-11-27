@@ -124,5 +124,10 @@ namespace editor_de_texto
         {
             richTextBox1.Copy();
         }
+
+        private void liempiarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+        }
     }
 } 
