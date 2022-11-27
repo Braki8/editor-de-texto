@@ -112,7 +112,17 @@ namespace editor_de_texto
 
         private void limpiarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            richTextBox1.Clear();
+        }
 
+        private void pegarToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            richTextBox1.Paste();
+        }
+
+        private void copiarToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            richTextBox1.Copy();
         }
     }
 } 
